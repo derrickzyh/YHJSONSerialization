@@ -1,0 +1,9 @@
+platform :ios
+
+target 'JSONDemo' do
+	platform:ios, '5.0'
+
+    pod 'YHJSONSerialization'
+
+end
+

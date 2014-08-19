@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "JSON serialization and deserialization using system API"
   s.homepage         = "https://github.com/derrickzyh/YHJSONSerialization"
   s.license          = 'MIT'
-  s.author           = { "玄聪" => "yuhang.zyh@alibaba-inc.com" }
+  s.author           = { "Derrick Zhang" => "derrickzyh@gmail.com" }
   s.source           = { :git => "https://github.com/derrickzyh/YHJSONSerialization.git", :tag =>s.version.to_s }
 
   s.platform     = :ios, '5.0'

@@ -1,0 +1,10 @@
+PODS:
+  - YHJSONSerialization (0.1.0)
+
+DEPENDENCIES:
+  - YHJSONSerialization
+
+SPEC CHECKSUMS:
+  YHJSONSerialization: 8138eb6e9e250cb5e85f92f08c9fc0e1dce54122
+
+COCOAPODS: 0.33.1
