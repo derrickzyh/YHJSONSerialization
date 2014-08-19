@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/derrickzyh/YHJSONSerialization"
   s.license          = 'MIT'
   s.author           = { "玄聪" => "yuhang.zyh@alibaba-inc.com" }
-  s.source           = { :git => "https://github.com/derrickzyh/YHJSONSerialization.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/derrickzyh/YHJSONSerialization.git", :branch=> "master" }
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
