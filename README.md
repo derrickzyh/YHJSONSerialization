@@ -11,14 +11,14 @@ IOS Version >= 5.0
 
 Installation
 -----------------------------------
-## CocoaPods
+### CocoaPods
 
 YHJSONSerialization is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "YHJSONSerialization"
     
-## Source
+### Source
 
 Direct add YHJSONSerialization to your project:
 
