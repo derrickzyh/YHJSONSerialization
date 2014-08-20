@@ -4,25 +4,37 @@ YHJSONSerialization
 JSON serialization and deserialization using system API
 
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Requirements
+-----------------------------------
 
 IOS Version >= 5.0
 
-## Installation
+Installation
+-----------------------------------
+## CocoaPods
 
 YHJSONSerialization is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "YHJSONSerialization"
+    
+## Source
 
-## Author
+Direct add YHJSONSerialization to your project:
+
+    YHJSONSerialization.h
+    YHJSONSerialization.m
+
+    
+Examples
+-----------------------------------
+
+Author
+-----------------------------------
 
 Derrick Zhang, derrickzyh@gmail.com
 
-## License
+License
+-----------------------------------
 
 YHJSONSerialization is available under the MIT license. See the LICENSE file for more info.
