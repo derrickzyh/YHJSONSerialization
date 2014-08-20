@@ -40,7 +40,10 @@ Import header
     
 ### JSON Array to JSON String
 	
-	NSDictionary *sampleJSONDict=@{@"opt": @"liek",@"kind": @[@"a",@"b",[NSNumber numberWithInt:2]], @"BOOL":[NSNumber numberWithBool:YES]};
+	NSDictionary *sampleJSONDict=@{ @"opt": @"liek",
+									@"kind": @[@"a",@"b",[NSNumber numberWithInt:2]], 
+									@"BOOL":[NSNumber numberWithBool:YES]
+								 };
     NSString *jsonStr=[sampleJSONDict JSONStringFromDict];
     
 ### JSON Dictionary to JSON String
