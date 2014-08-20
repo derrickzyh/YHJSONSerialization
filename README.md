@@ -29,6 +29,26 @@ Direct add YHJSONSerialization to your project:
 Examples
 -----------------------------------
 
+Import header
+
+	#import "YHJSONSerialization.h"
+
+### Parse JSON String
+
+	NSString *sampleAllString=@"{\"data\":\"abc\",\"info\":\"123\"}";
+    NSDictionary *object=[sampleAllString objectFromJSON];
+    
+### JSON Array to JSON String
+	
+	NSDictionary *sampleJSONDict=@{@"opt": @"liek",@"kind": @[@"a",@"b",[NSNumber numberWithInt:2]], @"BOOL":[NSNumber numberWithBool:YES]};
+    NSString *jsonStr=[sampleJSONDict JSONStringFromDict];
+    
+### JSON Dictionary to JSON String
+	
+	NSArray *sampleJSONArray=@[@"a",@"b",[NSNumber numberWithInt:2]];
+    NSString *jsonStr=[sampleJSONArray JSONStringFromArray];
+	
+
 Author
 -----------------------------------
 
